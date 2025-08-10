@@ -1,0 +1,71 @@
+{
+  "single_name": {
+    "peter": {
+      "count": 1094417,
+      "name": "peter",
+      "gender": "male",
+      "probability": 1
+    }
+  },
+  "country_specific": {
+    "kim_US": {
+      "count": 28672,
+      "name": "kim",
+      "country_id": "US",
+      "gender": "female",
+      "probability": 0.95
+    },
+    "kim_DK": {
+      "count": 3626,
+      "name": "kim",
+      "country_id": "DK",
+      "gender": "male",
+      "probability": 0.96
+    }
+  },
+  "batch": {
+    "peter_lois_stewie": [
+      {
+        "count": 1094417,
+        "name": "peter",
+        "gender": "male",
+        "probability": 1
+      },
+      {
+        "count": 50141,
+        "name": "lois",
+        "gender": "female",
+        "probability": 0.98
+      },
+      {
+        "count": 361,
+        "name": "stewie",
+        "gender": "male",
+        "probability": 0.94
+      }
+    ]
+  },
+  "edge_cases": [
+    {
+    "no_name": {
+      "count": 0,
+      "name": "",
+      "gender": null,
+      "probability": 0.0
+    },
+    "wrong_name": {
+      "count": 0,
+      "name": "peter2",
+      "gender": null,
+      "probability": 0.0
+    },
+      "wrong_country": {
+        "count": 0,
+        "name": "kim",
+        "country_id": "US2",
+        "gender": null,
+        "probability": 0.0
+      }
+      }
+    ]
+  }
