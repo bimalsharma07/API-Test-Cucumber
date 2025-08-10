@@ -1,14 +1,14 @@
 Cucumber- BDD test scenarios for - https://genderize.io/documentation.
 
 Test cases covered 
-- Predicting the gender of a single name
-- Predicting the gender with country-specific
-- Predicting the gender for multiple names
-- Edge case when no name is passed
-- Edge case when the  wrong name is passed
-- Edge case when the wrong country is passed
-- Data table to test the scenarios
-- Mocking/Stubbing to test the above scenarios
+- ✓ Predicting the gender of a single name
+- ✓ Predicting the gender with country-specific
+- ✓ Predicting the gender for multiple names
+- ✓ Edge case when no name is passed
+- ✓ Edge case when the  wrong name is passed
+- ✓ Edge case when the wrong country is passed
+- ✓ Data table to test the scenarios
+- ✓ Mocking/Stubbing to test the above scenarios
 
   Technologies used: Cucumber and Java (17.0)
 
