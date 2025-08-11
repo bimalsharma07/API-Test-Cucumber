@@ -64,14 +64,6 @@ public class MockServer {
             .willReturn(aResponse()
                 .withHeader("Content-Type", "application/json")
                 .withBody("{\"name\":\"kim\",\"country_id\":\"US2\",\"gender\":null,\"probability\":0.0,\"count\":0}")));
-
-        // Numeric name
-        wireMockServer.stubFor(get(urlPathEqualTo("/"))
-            .withQueryParam("name", equalTo("234"))
-            .willReturn(aResponse()
-                .withStatus(404)
-                .withHeader("Content-Type", "application/json")
-                .withBody("{\"error\":\"Uh oh. 234 is unknown to us\"}")));
         
         return wireMockServer;
     }
