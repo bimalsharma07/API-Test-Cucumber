@@ -11,6 +11,15 @@ Test cases covered
 - ✓ Mocking/Stubbing to test the above scenarios
 
   Technologies used: Cucumber and Java (17.0)
+  
+  Main code is avaialble in these files
+  - StepDefinitions: https://github.com/bimalsharma07/API-Test-Cucumber/blob/main/API-Test-Cucumber/API/demo/src/test/java/com/genderapi/stepdefinitions/GenderizeSteps.java
+    
+  - MockServer Code : https://github.com/bimalsharma07/API-Test-Cucumber/blob/main/API-Test-Cucumber/API/demo/src/test/java/com/genderapi/utils/MockServer.java
+    
+  - Cucumber Feature file : https://github.com/bimalsharma07/API-Test-Cucumber/blob/main/API-Test-Cucumber/API/demo/src/test/resources/features/genderapi.feature
+    
+  - JSON Data : https://github.com/bimalsharma07/API-Test-Cucumber/blob/main/API-Test-Cucumber/API/demo/src/test/resources/data/responses.json
 
 
 <img width="1156" height="751" alt="Screenshot 2025-08-10 at 9 32 47 PM" src="https://github.com/user-attachments/assets/bda49904-1236-44c0-b6eb-7c86deabe7b7" />
