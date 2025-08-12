@@ -50,8 +50,8 @@ public class GenderizeSteps {
     }
 
     @Given("I have multiple names {string}")
-    public void i_have_multiple_names(String namesCsv) {
-        this.names = namesCsv.split(",\\s*");
+    public void i_have_multiple_names(String namesMultiple) {
+        this.names = namesMultiple.split(",\\s*");
         this.name = null;
         this.country = null;
     }
